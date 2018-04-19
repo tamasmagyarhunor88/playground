@@ -5,4 +5,9 @@ class Calculator {
   {
     return $a + $b;
   }
+
+  public function substract($a, $b)
+  {
+    return $a - $b;
+  }
 }
