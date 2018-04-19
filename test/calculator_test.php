@@ -1,6 +1,7 @@
 <?php
 
 require 'calculator.php';
+use App\Calculator;
 
 class CalculatorTest extends PHPUnit_Framework_TestCase
 {
