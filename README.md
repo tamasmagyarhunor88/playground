@@ -11,10 +11,13 @@ $ curl -s http://getcomposer.org/installer | php    # install locally
 $ sudo mv composer.phar /usr/local/bin/composer     # add this if you want to have it globally
 ```
 
+Clone, install dependencies and run tests
+
 ```
 $ git clone https://github.com/tamasmagyarhunor88/playground.git
 $ cd playground
-$ composer install       # installs dependencies
+$ composer install
+$ vendor/EHER/PHPUnit/bin/phpunit test/calculator_test.php
 ```
 
 
